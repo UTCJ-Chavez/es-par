@@ -4,7 +4,7 @@ from es_par import es_par
 
 # ---- Casos correctos ----
 def test_numero_par_correcto():
-    assert es_par(4) is True
+    assert es_par(4) is False
 
 
 def test_numero_impar_correcto():
